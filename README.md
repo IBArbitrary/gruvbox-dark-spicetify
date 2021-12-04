@@ -1,10 +1,11 @@
 # gruvbox-dark spicetify theme for Spotify
 
-### Information
+### installation
 
-- To apply this theme:
-
+1. clone this repository inside `~/.config/spicetify/Themes/`
+2. run:
   ```shell
-  spicetify config current_theme gruvbox-dark color_scheme
+  spicetify config current_theme gruvbox-dark
   spicetify apply
   ```
+3. enjoy :)
