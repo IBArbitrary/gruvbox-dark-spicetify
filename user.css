@@ -1,3 +1,8 @@
+/* font stuff */
+* {
+  font-family: monospace !important;
+}
+
 /* sidebar edits */
 .main-navBar-navBarLinkActive,
 .main-navBar-navBarLinkActive:focus,
@@ -18,7 +23,8 @@
   color: var(--spice-main) !important;
 }
 
-.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-collectionLinkText,
+.main-collectionLinkButton-collectionLinkButton
+  .main-collectionLinkButton-collectionLinkText,
 .main-createPlaylistButton-button,
 .main-rootlist-rootlistItemLink,
 .main-rootlist-rootlistItemLink:visited {
@@ -31,7 +37,9 @@
   color: var(--spice-subtext) !important;
 }
 
-.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-selected .main-collectionLinkButton-icon {
+.main-collectionLinkButton-collectionLinkButton
+  .main-collectionLinkButton-selected
+  .main-collectionLinkButton-icon {
   opacity: 0.7 !important;
 }
 
@@ -78,11 +86,12 @@
 }
 
 /* Topbar visibility bug */
-.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
+.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn) > * {
   opacity: unset !important;
 }
 
-.main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)>* {
+.main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)
+  > * {
   opacity: 0 !important;
 }
 
@@ -229,23 +238,22 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow), 0.5);
 }
 
-input:checked~.x-toggle-indicatorWrapper .x-toggle-indicator {
+input:checked ~ .x-toggle-indicatorWrapper .x-toggle-indicator {
   background-color: var(--spice-button) !important;
   box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow), 0.5);
 }
 
-input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
   background-color: rgba(var(--spice-rgb-button-disabled), 0.7) !important;
 }
 
-input:checked~.x-toggle-indicatorWrapper {
+input:checked ~ .x-toggle-indicatorWrapper {
   background-color: rgba(var(--spice-rgb-button), 0.6) !important;
 }
 
-input:checked:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+input:checked:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
   background-color: rgba(var(--spice-rgb-button), 0.4) !important;
 }
-
 
 /* queue, album, recent, playlist, page edits */
 .queue-queue-container,
@@ -365,13 +373,13 @@ input {
 
 .Root__now-playing-bar {
   background-color: var(--spice-sec-player) !important;
-  box-shadow: 0 -2px 5px 0 rgba(var(--spice-rgb-shadow), 0.5) !important;
-  border-radius: 15px 15px 0 0 !important;
+  box-shadow: 0 0 0 0 rgba(var(--spice-rgb-shadow), 0) !important;
+  border-radius: 0px 0px 0 0 !important;
 }
 
 .main-nowPlayingBar-container {
   background-color: var(--spice-sec-player) !important;
-  border-radius: 15px 15px 0 0 !important;
+  border-radius: 0px 0px 0 0 !important;
 }
 
 .main-connectBar-connectBar.main-connectBar-FullscreenModeButtonEnabled.main-type-mesto {

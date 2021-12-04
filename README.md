@@ -1,24 +1,10 @@
-# Gruvbox spicetify theme for Spotify
-
-## Screenshots
-
-#### Dark
-
-#### Light
-
-Gruvbox spotify theme.
+# gruvbox-dark spicetify theme for Spotify
 
 ### Information
 
 - To apply this theme:
 
   ```shell
-  # for dark theme
-  spicetify config current_theme gruvbox color_scheme dark
+  spicetify config current_theme gruvbox-dark color_scheme
   spicetify apply
-
-  #for light theme
-  spicetify config current_theme gruvbox color_scheme light
-  spicetify apply
-
   ```
