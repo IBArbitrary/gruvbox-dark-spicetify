@@ -413,3 +413,7 @@ input {
   border-radius: 10px !important;
   background-color: var(--spice-sec-player) !important;
 }
+
+.main-type-mestoBold {
+  color: #7c6f64 !important;
+}
